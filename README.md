@@ -14,7 +14,7 @@ D3 stands for data-driven documents, and is a JavaScript library for building in
 
 D3 is notoriously challenging because it requires knowing a bit about JavaScript, a bit about HTML/CSS, and a bit about SVG. The goal with this workshop is to help you get a good enough sense of how D3 works to explore on your own.
 
-#D3 visualizations are built around binding data to HTML or SVG elements
+# D3 visualizations are built around binding data to HTML or SVG elements
 
 What the heck does binding even mean? The idea here is that if you have a bunch of data and you want to use those data to manipulate elements on your webpage, then you need a way to select those elements and associate (or 'bind') your data to them. 
 
@@ -38,21 +38,21 @@ The way you then manipulate elements on your HTML document is by writing functio
 
 One of the other important D3 concepts is scale. For example, if you wanted to draw a circle on your document representing the US GDP ($18.56 trillion), you wouldn't want a circle that has a diameter of 18.56 trillion pixels. D3's `.scale` method helps you scale your data to the size of the graphic that you want to create. We'll discuss this more when we build our example. 
 
-#You don't need to reinvent the wheel
+# You don't need to reinvent the wheel
 
 There are tons of resources for learning D3 and perusing through code blocks created by other people.
 
-##Online learning resources
+## Online learning resources
   * [D3 documentation](https://github.com/d3/d3/wiki/Tutorials)
   * [Aligned Left](http://alignedleft.com/tutorials/d3)
   * [Dashing D3](https://www.dashingd3js.com/) -- not all content on this site is free
   
-##Example galleries
+## Example galleries
   * [Official D3 Gallery](https://github.com/d3/d3/wiki/Gallery)
   * https://bl.ocks.org/ 
   * http://christopheviau.com/d3list/gallery.html
   
-##Fancy examples
+## Fancy examples
   * http://www.facesoffracking.org/data-visualization/
   * http://www.koalastothemax.com/
   
